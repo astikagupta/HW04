@@ -69,37 +69,37 @@ def main():
     # incorrectly.
     # ex.: any_lowercase_("thisstringmessesupthefunction")
  
-#  x=any_lowercase1("aBC")
-#  if x==True:
-#   print("the string contains lower case letter")   
-#  else:
-#   print("the string doesn't contain any lower case letter")
+ x=any_lowercase1("aBC")
+ if x==True:
+  print("the string contains lower case letter")   
+ else:
+  print("the string doesn't contain any lower case letter")
  
-#  y=any_lowercase2("BC")
-#  if y=='True':
-#   print("the string contains lower case letter")   
-#  else:
-#   print("the string doesn't contain any lower case letter")
+ y=any_lowercase2("BC")
+ if y=='True':
+  print("the string contains lower case letter")   
+ else:
+  print("the string doesn't contain any lower case letter")
 
 # when the last letter is a lower case letter, the result is correct
-#  z=any_lowercase3("aBCd")
-#  if z==True:
-#   print("the string contains lower case letter")   
-#  else:
-#   print("the string doesn't contain any lower case letter")
+ z=any_lowercase3("aBCd")
+ if z==True:
+  print("the string contains lower case letter")   
+ else:
+  print("the string doesn't contain any lower case letter")
   
 # when the last letter is not a lower case letter, the result is wrong
-#  z=any_lowercase3("aBC")
-#  if z==True:
-#   print("the string contains lower case letter")   
-#  else:
-#   print("the string doesn't contain any lower case letter")
+ z=any_lowercase3("aBC")
+ if z==True:
+  print("the string contains lower case letter")   
+ else:
+  print("the string doesn't contain any lower case letter")
   
-#  w=any_lowercase4("BhC")
-#  if w==True:
-#   print("the string contains lower case letter")   
-#  else:
-#   print("the string doesn't contain any lower case letter")
+ w=any_lowercase4("BhC")
+ if w==True:
+  print("the string contains lower case letter")   
+ else:
+  print("the string doesn't contain any lower case letter")
   
 # wrong result 
  u=any_lowercase5("ahC")
