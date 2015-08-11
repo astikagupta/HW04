@@ -17,18 +17,25 @@
 ################################################################################
 # Imports
 
+ 
 
 # Body
 
-
+def count(w,l):
+ i=0
+ for letter in w:
+  if letter == l:
+   i=i+1
+ print i
 
 
 ################################################################################
 def main():
-
-    # Remove print("Hello World!") and add several functions calls to count()
-    # below, passing various strings and letters
-    print("Hello World!") 
+   
+    count('banana','a')
+    count("elephant","e")
+    count("xyz","a")
+    count("pppppppppppp","p")
     
 
 if __name__ == '__main__':

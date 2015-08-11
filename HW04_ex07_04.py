@@ -21,17 +21,32 @@
 
 ################################################################################
 # Imports
-
+import math
 
 # Body
 
+def eval_loop():
+ 
+ while(True):
+  print "Enter the expression or enter 'done' to exit"
+  x=raw_input()
+  if(x=='done'):
+   print 'Bye!'
+   break
+  else:
+   try:
+    print(eval(x))
+    break
+   except:
+    print "Not an expression. Try again."
+    continue
 
 
 
 ################################################################################
 def main():
-    pass # Remove this line and uncomment below once eval_loop is defined.
-    # eval_loop()
+
+     eval_loop()
     
 
 if __name__ == '__main__':
